@@ -36,10 +36,3 @@ if st.button('Predict'):
     st.write(f"Probability of 'On Time' (0): {prediction_proba[0][0]:.2f}")
     st.write(f"Probability of 'Delayed' (1): {prediction_proba[0][1]:.2f}")
 
-st.write('---
-To run this Streamlit app, execute the following commands in your Colab notebook (in separate cells or after installation):
-```bash
-!pip install streamlit
-!streamlit run app.py &>/dev/null&
-```
-After running the `streamlit run` command, a public URL will be provided that you can click to access the app.')
